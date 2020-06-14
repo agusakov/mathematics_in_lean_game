@@ -1,12 +1,20 @@
 /-
-# The Natural Number Game, version 1.3.3
+# Mathematics in Lean, The Game
+## version Beta maybe idk
 
-## By Kevin Buzzard and Mohammad Pedramfar. 
+## By <a href="https://youtu.be/gXlfXirQF3A" title="Plagiarize!!" target="blank">Nikolai Ivanovich Lobachevsky</a>
+*Just kidding it's mostly Kevin Buzzard and Mohammad Pedramfar*
 
 # What is this game?
 
-Welcome to the natural number game -- a part-book part-game which shows the power of induction.
-Blue nodes on the graph are ones that you are ready to enter. Grey nodes you should stay away
+Well, it's not the natural number game. It's much worse in fact.
+This game is an attempt to transform the Mathematics in Lean textbook 
+into something more playable. It's a work in progress.
+
+## Don't play any of the levels past the first one for now
+I'm too lazy to figure out how to disable them without deleting.
+
+As usual, blue nodes on the graph are ones that you are ready to enter. Grey nodes you should stay away
 from -- a grey node turns blue when *all* nodes above it are complete. Green nodes are completed.
 (Actually you can try any level at any time, but you might not know enough to complete it if it's grey).
 

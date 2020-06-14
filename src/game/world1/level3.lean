@@ -21,8 +21,8 @@ you can change the leading character by changing the
 -/
 -- end hide
 
-/- Try proving these identities,
-in each case replacing `sorry` by a tactic proof.
+/- Try proving this identity, 
+replacing `sorry` by a tactic proof.
 With the `rw` tactic, you can use a left arrow (`\l`)
 to reverse an identity.
 For example, `rw ← mul_assoc a b c`

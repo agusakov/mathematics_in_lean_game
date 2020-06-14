@@ -70,7 +70,18 @@ using the `sorry` tactic for justification,
 make sure Lean accepts the expression modulo these,
 and then justify the individual steps using tactics.
 
-Try filling in the `sorry`s yourself!
+Try inserting this code block
+```
+calc
+  (a + b) * (a + b)
+      = a * a + b * a + (a * b + b * b) :
+    begin
+      sorry
+    end
+  ... = a * a + (b * a + a * b) + b * b : by sorry
+  ... = a * a + 2 * (a * b) + b * b     : by sorry
+```
+and filling in the `sorry`s yourself!
 -/
 
 /- Lemma : no-side-bar

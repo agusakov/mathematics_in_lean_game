@@ -5,11 +5,8 @@ namespace calculating -- hide
 /-
 #Calculating
 
-## Level 5: `rw` with partial information
+## Level 5: `rw` with no arguments
 
-You can also provide *partial* information.
-For example, `mul_comm a` matches any pattern of the form
-`a * ?` and rewrites it to `? * a`.
 Try doing this example without
 providing any arguments at all.
 -/

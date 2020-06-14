@@ -7,7 +7,7 @@ namespace calculating -- hide
 
 ## Level 14: `calc` keyword
 
-Try proving the following identity using a pure `rw` proof first.
+Try proving the following identity using a pure `rw` proof.
 -/
 
 variables a b c d : ℝ

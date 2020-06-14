@@ -37,4 +37,9 @@ begin [maths_in_lean_game]
   sorry
 end
 
+
+/- Tactic : rw
+Description of the tactic
+-/
+
 end calculating -- hide

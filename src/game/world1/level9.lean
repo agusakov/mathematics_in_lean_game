@@ -2,6 +2,10 @@ import data.real.basic --imports the real numbers
 import tactic.maths_in_lean_game -- hide
 namespace calculating -- hide
 
+/- Theorem : sub_self
+
+-/
+
 /-
 #Calculating
 

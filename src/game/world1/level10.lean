@@ -11,8 +11,10 @@ We now introduce some useful features of Lean.
 First, multiple rewrite commands can be carried out
 with a single command,
 by listing the relevant identities within square brackets.
-Second, when a tactic proof is just a single command,
-we can replace the `begin ... end` block with a `by`.
+
+The command we want is 
+`rw [h', ←mul_assoc, h, mul_assoc]`.
+
 -/
 
 /- Lemma : no-side-bar
@@ -24,7 +26,7 @@ lemma example10 (a b c d e f : ℝ) (h : a * b = c * d) (h' : e = f) :
 begin [maths_in_lean_game]
         
         rw [h', ←mul_assoc, h, mul_assoc]
-        
+
 end
 
 /-

@@ -11,6 +11,9 @@ You can also use identities like `mul_assoc` and `mul_comm` without arguments.
 In this case, the rewrite tactic tries to match the left-hand side with
 an expression in the goal,
 using the first pattern it finds.
+
+Try doing this example without
+providing any arguments at all.
 -/
 
 /- Lemma : no-side-bar
@@ -19,9 +22,10 @@ $$a + \operatorname{succ}(0) = \operatorname{succ}(a).$$
 -/
 lemma example4 (a b c : ℝ) : a * b * c = b * c * a :=
 begin [maths_in_lean_game]
-  rw mul_assoc,
-  rw mul_comm
   
+
+
+  sorry
 end
 
 end calculating -- hide

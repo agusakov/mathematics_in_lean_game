@@ -5,9 +5,13 @@ namespace calculating -- hide
 /-
 #Calculating
 
-## Level 6: `rw` with partial information continued
+## Level 6: `rw` with partial information
 
-Now try doing this example with only one argument.
+You can also provide *partial* information.
+For example, `mul_comm a` matches any pattern of the form
+`a * ?` and rewrites it to `? * a`.
+
+Try doing this example with only one argument.
 -/
 
 /- Lemma : no-side-bar

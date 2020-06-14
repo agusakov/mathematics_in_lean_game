@@ -2,6 +2,14 @@ import data.real.basic --imports the real numbers
 import tactic.maths_in_lean_game -- hide
 namespace calculating -- hide
 
+/- Axiom : mul_comm (a b : ℝ) :
+a * b = b * a
+-/
+
+/- Axiom : mul_assoc (a b c : ℝ) :
+(a * b) * c = a * (b * c)
+-/
+
 /-
 #Calculating
 
@@ -27,15 +35,17 @@ However, it is generally good style to be mindful of Lean's
 notational conventions and leave out parentheses when Lean does as well.
 
 Let's try out `rw`.
+
+First we use `rw mul_comm a b,` to swap $a$ with $b$,
+and then `rw mul_assoc b a c` to do associativity stuff.
 -/
 
 /- Lemma : no-side-bar
 -/
 lemma example1 (a b c : ℝ) : (a * b) * c = b * (a * c) :=
-begin
+begin [maths_in_lean_game]
   rw mul_comm a b,
   rw mul_assoc b a c
-
 end
 
 /-
@@ -46,6 +56,7 @@ imports the theory of the real numbers from `mathlib`.
 For the sake of brevity,
 we generally suppress information like this when it
 is repeated from example to example.
+
 -/
   
 end calculating -- hide

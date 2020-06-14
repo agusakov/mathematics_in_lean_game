@@ -7,7 +7,7 @@ namespace calculating -- hide
 
 ## Level 8: Practice
 
-Try this problem:
+Now try this problem:
 -/
 
 /- Lemma : no-side-bar
